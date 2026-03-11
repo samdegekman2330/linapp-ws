@@ -1,31 +1,12 @@
-# Build & Binary bestanden
+# Negeer de build map
 build/
 bin/
-obj/
-*.o
-*.a
-*.so
-*.la
-*.lo
 
-# Debugging & Logs
-*.log
-core.*
-vgcore.*
-
-# Systeem-specifieke bestanden (Arch/Debian/Ubuntu)
-.DS_Store
-.directory
-*~
+# Negeer tijdelijke editor bestanden
 *.swp
-
-# IDE specifieke bestanden
+*~
 .vscode/
 .idea/
-cmake-build-*/
 
-# Packaging troep
-*.deb
-*.pkg.tar.zst
-pkg/
-src/
+# Maar we negeren NOOIT de source code!
+!src/
