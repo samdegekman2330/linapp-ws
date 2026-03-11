@@ -1,0 +1,31 @@
+# Build & Binary bestanden
+build/
+bin/
+obj/
+*.o
+*.a
+*.so
+*.la
+*.lo
+
+# Debugging & Logs
+*.log
+core.*
+vgcore.*
+
+# Systeem-specifieke bestanden (Arch/Debian/Ubuntu)
+.DS_Store
+.directory
+*~
+*.swp
+
+# IDE specifieke bestanden
+.vscode/
+.idea/
+cmake-build-*/
+
+# Packaging troep
+*.deb
+*.pkg.tar.zst
+pkg/
+src/
